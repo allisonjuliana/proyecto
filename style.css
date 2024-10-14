@@ -1,0 +1,49 @@
+body{
+    background:rgb(0, 0, 0);
+}
+.postcard{
+    width: 400px;
+    height: 270px;
+    background: white;
+    margin: auto;
+}
+.postcard-header{
+    display: flex;  
+}
+.postcard-header h1 {
+    font-style:italic;
+    width: 85%;
+    margin: 0; 
+    padding: 10px
+}
+.postcard-header img {
+    width: 50px;
+    height: 50px;
+    padding: 10px
+}
+.postcard-body {
+    display: flex;
+}
+.parrafo1 {
+    margin-top: 0;
+    text-align: justify;
+    font-family: Berlin Sans FB;
+}
+.parrafo2{
+    font-family: Berlin Sans FB;
+}
+.body-left, .body-right{
+    padding: 10px
+}
+input{
+    border:none;
+    border-bottom: 1px grey solid;
+    font-style:oblique;
+}
+.postcard-footer{
+    text-align: center;
+}
+button{
+    background-color:rgb(151, 150, 150);
+    padding: 5px 10px;
+}
